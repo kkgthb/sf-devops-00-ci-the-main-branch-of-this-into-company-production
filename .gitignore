@@ -1,0 +1,28 @@
+# Salesforce / SFDX / CCI
+.cci
+.sfdx
+.sf
+/src.orig
+/src
+
+# Python
+*.pyc
+__pycache__
+
+# Robot Framework results
+robot/EDA unit test bug/results/
+
+# Editors
+*.sublime-project
+*.sublime-workspace
+.vscode
+.idea
+.project
+.settings
+
+# Misc
+.DS_Store
+.ignoreme
+test_results.json
+test_results.xml
+output
