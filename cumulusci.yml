@@ -4,4 +4,9 @@ project:
     name: DevOps Demo 00 - Use CI Tools With This One
   git:
     default_branch: 'main'
+  dependencies:
+    - github: 'https://github.com/kkgthb/sf-devops-01-kitchen-sink-everything-else' # For the "Junk email" field
+    - github: https://github.com/kkgthb/sf-devops-02-org-agnostic-utils # For the developer utils
+    - version_id: '04t5Y0000015lsgQAA' # Nebula Logger managed package.  3 minutes to deploy.
+    - version_id: '04t4x000000RqyHAAS' # RecordTypePicker.  Unlocked package.  1-2 minutes to deploy.
   source_format: sfdx
