@@ -1,0 +1,7 @@
+project:
+  name: devops-demo-00-ci-this
+  package:
+    name: DevOps Demo 00 - Use CI Tools With This One
+  git:
+    default_branch: 'main'
+  source_format: sfdx
